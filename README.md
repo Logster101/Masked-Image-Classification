@@ -14,8 +14,6 @@ The model is trained on annotated images and evaluated using classification metr
 - **Annotations (XML):** `annotations/`
 - Each XML file contains bounding boxes and labels for the faces in the images.
 
-> **Note:** You can replace these folders with your own dataset, following the same structure.
-
 ## Requirements
 - Python 3.9+
 - TensorFlow 2.x
@@ -91,4 +89,4 @@ for i in range(10):
 - `mask_weared_incorrect` is harder to classify due to fewer samples
 
 ## License
-This project is open-source under the **MIT License**.
+This project is for educational use.
